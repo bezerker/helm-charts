@@ -5,8 +5,7 @@
 service: {}
   # name: 
   # externalName:
-  # ports:
-  #  - port: 80
+  # port: 80
 ingress:
   enabled: false
   annotations: {}

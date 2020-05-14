@@ -6,6 +6,4 @@ spec:
   type: "ExternalName"
   externalName: {{ .Values.service.externalName | quote }}
   ports:
-  {{- range .Values.service.ports }}
-  - port: {{ .port }}
-  {{- end }}
+  - port: {{ .Values.service.port }}
